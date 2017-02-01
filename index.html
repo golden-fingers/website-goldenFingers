@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Golden Fingers</title>
+
+    
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+</head>
+
+<body>
+
+	<header>
+		<h2><a href="#">Golden <b>Fingers</b></a></h2>
+		<nav>
+			<li><a href="#">Home</a></li>
+			<li><a href="#team">Team</a></li>
+			<li><a href="#about">About</a></li>
+			<li><a href="#contact">Contacts</a></li>
+		</nav>
+	</header>
+
+
+	<section class="hero">
+		<div class="background-image" style="background-image: url(assets/img/hero.jpg);"></div>
+		<h1> You Trust, We care</h1>
+		<h3>Try out our services.</h3>
+		<a href="#contact" class="btn">Start Now</a>
+	</section>
+
+
+	<section class="our-work" id="team">
+		<h3 class="title">Check out our Portfolio, please send us your feedback</h3>
+		<p>Here you can find our recent projects and our portfolio</p>
+		<hr>
+
+		<ul class="grid">
+			<li class="small" style="background-image: url(assets/img/coast.jpg);"></li>
+			<li class="large" style="background-image: url(assets/img/island.jpg);"></li>
+			<li class="large" style="background-image: url(assets/img/balloon.jpg);"></li>
+			<li class="small" style="background-image: url(assets/img/mountain.jpg);"></li>
+        </ul>
+		
+	</section>
+	
+
+
+	<section class="reviews" id="about">
+		<h3 class="title">What others say:</h3>
+
+		<p class="quote">Mauris sit amet mauris a arcu eleifend ultricies eget ut dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+		<p class="author">— Patrick Farrell</p>
+
+		<p class="quote">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices. Morbi vitae pulvinar velit. Sed aliquam dictum sapien, id sagittis augue malesuada eu.</p>
+		<p class="author">— George Smith</p>
+
+		<p class="quote">Donec commodo dolor augue, vitae faucibus tortor tincidunt in. Aliquam vitae leo quis mi pulvinar ornare. Integer eu iaculis metus.</p>
+		<p class="author">— Kevin Blake</p>
+
+		
+	</section>
+
+
+	<section class="contact" id="contact">
+		<h3 class="title">Join our newsletter</h3>	
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices. Morbi vitae pulvinar velit. Sed aliquam dictum sapien, id sagittis augue malesuada eu.</p>
+		<hr>
+        <div id="date tex-center"><p id="demo"></p></div>
+		<form method="post" name="Form" onsubmit="return validateForm()" action="">
+			<input type="text" id="youname" placeholder="Your name">
+            <input type="email" id="youemail" placeholder="Email">
+            <textarea placeholder="Your message" rows="8" id6="youtext"></textarea>
+			<a class="btn">Subscribe now</a>
+		</form>
+	</section>
+
+	<footer>
+		<p> Golden Fingers</p>
+		<p> We will ROCK You </p>
+	</footer>
+
+<script>
+document.getElementById("demo").innerHTML = Date();
+</script>
+
+</body>
+
+</html>
